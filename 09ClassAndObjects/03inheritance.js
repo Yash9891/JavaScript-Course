@@ -1,53 +1,53 @@
 //Inheritance is passing down properties and methods from parent class to child class.
 
-// class parent{
-//     hello(){
-//         console.log("Hello I am sinchan");
-//     }
-// }
+class parent{
+    hello(){
+        console.log("Hello I am sinchan");
+    }
+}
 
-// class child extends parent{
+class child extends parent{
 
-// }
+}
 
-// let object= new child;
-// console.log(object.hello());
+let object= new child;
+console.log(object.hello());
 
 
 //Access parent properties in the cild
 
-// class Person{
-//     constructor(){
-//         this.species='homo sapiens'
-//         console.log(this.species);
-//     }
-//     eat(){
-//         console.log("Eat");
-//     }
-//     sleep(){
-//         console.log("Sleep");
-//     }
-//     work(){
-//         console.log("Do nothing");
-//     }
-// }
-// class Engineer extends Person{//inherit mehods from parent
-//     work(){
-//         console.log("Solve problem");
-//     }
-// }
-// class Doctor extends Person{
-//     work(){
-//         console.log("Treet patient");
-//     }
-// }
+class Person{
+    constructor(){
+        this.species='homo sapiens'
+        console.log(this.species);
+    }
+    eat(){
+        console.log("Eat");
+    }
+    sleep(){
+        console.log("Sleep");
+    }
+    work(){
+        console.log("Do nothing");
+    }
+}
+class Engineer extends Person{//inherit mehods from parent
+    work(){
+        console.log("Solve problem");
+    }
+}
+class Doctor extends Person{
+    work(){
+        console.log("Treet patient");
+    }
+}
 
-// let yashobj= new Engineer;
-// console.log(yashobj.eat());
-// console.log(yashobj.work());
-// let docObj= new  Doctor;
-// console.log(docObj.work());//method overriding
-// console.log(docObj.sleep());
+let yashobj= new Engineer;
+console.log(yashobj.eat());
+console.log(yashobj.work());
+let docObj= new  Doctor;
+console.log(docObj.work());//method overriding
+console.log(docObj.sleep());
 
 //Method overriding:If child and parent have same method then child method will be used.
 
