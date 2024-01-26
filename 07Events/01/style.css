@@ -1,0 +1,32 @@
+/* 
+.d{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+p{
+    height: 100px;
+} */
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: rgb(24, 22, 22);
+}
+#mode{
+    
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    font-size: larger;
+    border-radius: 5px;
+    border: 2px solid rgb(201, 157, 251);
+}
+p{
+ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+}
