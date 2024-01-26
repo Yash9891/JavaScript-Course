@@ -1,15 +1,15 @@
 //Callback
 //A callback is a function passed as an argument to another function.
 
-// function sum(a,b){
-//     console.log(a+b);
+function sum(a,b){
+    console.log(a+b);
 
-// }
-// function cal(a,b,sumCallback){
-//     sumCallback(a,b)
+}
+function cal(a,b,sumCallback){
+    sumCallback(a,b)
 
-// }
-// cal(1,2,sum)
+}
+cal(1,2,sum)
 
 const heloo=()=>{
     console.log("Hello");
