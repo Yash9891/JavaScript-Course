@@ -11,15 +11,15 @@ object’s method will be used
  */
 
 
-// const student={
-//     name:"Yash",
-//     marks:9.8,
-//     printMark:function nami(){
-//         console.log("Hui Hui",this.marks);
-//     }
+const student={
+    name:"Yash",
+    marks:9.8,
+    printMark:function nami(){
+        console.log("Hui Hui",this.marks);
+    }
 
-// }
-// console.log(student.nami());
+}
+console.log(student.nami());
 
 
 const employeeobj1={
