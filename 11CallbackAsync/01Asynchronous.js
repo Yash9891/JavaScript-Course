@@ -15,10 +15,10 @@ Each instruction wait for the previous instruction to complete its execution.
 
 */
 
-// function heloo(){
-//     console.log("Hello");
-// }
-// setTimeout(heloo,2000)//timeout it execute the heloo function after 2 sec
+function heloo(){
+    console.log("Hello");
+}
+setTimeout(heloo,2000)//timeout it execute the heloo function after 2 sec
 
 //Asynchronous programming
 console.log("1");
