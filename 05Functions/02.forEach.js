@@ -5,20 +5,20 @@
 
 //forEach  loop in arrays  :Higher order function :who use functions as a parameter
 
-// array.forEach(callBackFunction)//in javascript we can also use as an argumenet
+array.forEach(callBackFunction)//in javascript we can also use as an argumenet
 
 //A callback is a function passed as an argument to another function or return function as an output
 
 
-// let arr=['sima','jita','huasi','pita','fumba']
+let arr=['sima','jita','huasi','pita','fumba']
 
-// arr.forEach(function printval(val){
-//     console.log(val);
-// })
+arr.forEach(function printval(val){
+    console.log(val);
+})
 
-// arr.forEach((val,idx,arr)=>{
-//     console.log(val.toUpperCase(),idx,arr);
-// })
+arr.forEach((val,idx,arr)=>{
+    console.log(val.toUpperCase(),idx,arr);
+})
 
 
 
