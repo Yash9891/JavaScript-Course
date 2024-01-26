@@ -4,49 +4,49 @@
 //resolve and reject are callbacks provided by js
 
 
-// let promise =new Promise((resolve,reject)=>{
-//     console.log("I am a promise");
-//     // resolve("Success")
-//     reject("Some err")
-// })
-// console.log(promise);
+let promise =new Promise((resolve,reject)=>{
+    console.log("I am a promise");
+    // resolve("Success")
+    reject("Some err")
+})
+console.log(promise);
 
 
-// function getData(dataId,getnextdata){
-//     return new Promise((resolve,reject)=>{
-//         setTimeout(()=>{
-//             // console.log("data",dataId);
-//             // resolve("success")
-//             reject("Error")
-//             if(getnextdata){
-//                 getnextdata();
-//             }
+function getData(dataId,getnextdata){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            // console.log("data",dataId);
+            // resolve("success")
+            reject("Error")
+            if(getnextdata){
+                getnextdata();
+            }
     
-//         },5000)
-//     })
+        },5000)
+    })
    
-// }
-// let promise=getData(124);
-// console.log(promise);
+}
+let promise=getData(124);
+console.log(promise);
 
 
-// const getPromise=()=>{
-//     return new Promise((resolve,reject)=>{
-//     console.log("I am a promise");
-//     resolve("Success")
-//     // reject("Network Error")
+const getPromise=()=>{
+    return new Promise((resolve,reject)=>{
+    console.log("I am a promise");
+    resolve("Success")
+    // reject("Network Error")
 
-// })
-// }
+})
+}
 
-// let promise=getPromise();
-// promise.then((result)=>{
-//     console.log("Promise fulfilled",result);
-// })
-// promise.catch((error)=>{
-//     console.log("Rejected",error);
+let promise=getPromise();
+promise.then((result)=>{
+    console.log("Promise fulfilled",result);
+})
+promise.catch((error)=>{
+    console.log("Rejected",error);
 
-// })
+})
 
 
 //Promise chaining
